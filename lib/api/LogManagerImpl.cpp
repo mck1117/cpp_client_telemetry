@@ -247,7 +247,6 @@ namespace MAT_NS_BEGIN
             // UTC is active
             configuration[CFG_STR_UTC][CFG_BOOL_UTC_ACTIVE] = true;
             LOG_TRACE("Initializing UTC physical layer...");
-
             std::string providerName;
             if ((*configuration).count(CFG_STR_UTC_PROVIDER_NAME))
             {
